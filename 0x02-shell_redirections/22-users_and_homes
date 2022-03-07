@@ -1,2 +1,2 @@
 #!/bin/bash
-find "/etc/passwd" -type f -name "*.gif"  -printf "%f\n" | rev | cut -d'.' -f 2- | rev | LC_ALL=C sort -f
+sort /etc/passwd | cut -d':' -f 1,6
