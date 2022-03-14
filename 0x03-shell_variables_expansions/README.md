@@ -1,6 +1,6 @@
 
 this is a readme file for 0x03 shell variable . In all cases it is a script  
-
+<p>
 **0-alias** is a script that creates an alias.  
   
 **1-hello_you** is a script that prints hello user, where user is the current Linux user.  
@@ -35,4 +35,5 @@ this is a readme file for 0x03 shell variable . In all cases it is a script
 
 **102-odd** is a script that prints every other line from the input, starting with the first line.  
 
-**103-water_and_stir** is a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.  
+**103-water_and_stir** is a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+</p>
