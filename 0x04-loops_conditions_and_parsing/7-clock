@@ -2,7 +2,6 @@
 # clock
 
 i=0
-j=1
 
 while [ $i -lt 13 ]
 do
@@ -14,10 +13,4 @@ do
             j=$((j+1))
         done
     i=$((i+1))
-    case $i in
-        12)
-            echo $"Hour: 12"
-            exit 0
-            ;;
-    esac
 done
