@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # for ls
 
-ALL_FILES="$(ls .)"
+ALL_FILES="$(ls *)"
 
 for FILE in $ALL_FILES
 do
-    echo "${FILE//[0-9]-/''}"
+    echo $FILE | cut -d'-' -f2
 done
