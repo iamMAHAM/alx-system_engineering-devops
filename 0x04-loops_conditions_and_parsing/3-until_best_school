@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# prints Best school x10 while until loop
+# prints Best school x10 with until loop
 
 i=0
 until [ $i -gt 9 ]
