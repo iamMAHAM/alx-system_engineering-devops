@@ -1,0 +1,10 @@
+when you type google.com on browser :
+
+* Your browser asks your computer where google.com is located.
+if not found it  checks the cache for a DNS servers the corresponding IP address of google.com
+
+* The browser sends an HTTP request to the webserver to retrieve website content
+	the requests goes to load-balancer adn load-balancer find right server to send request
+	when server receive a request it ask a content to a database in order to get content
+
+* servers back the right content to the client (browser) and browser displays the content
